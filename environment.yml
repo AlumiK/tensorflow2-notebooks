@@ -1,7 +1,11 @@
 name: tf2
 dependencies:
+  - cudatoolkit=10.1
+  - cudnn
   - scikit-learn
   - pandas
   - matplotlib
-  - tensorflow-gpu
   - jupyter
+  - pip
+  - pip:
+    - tensorflow
